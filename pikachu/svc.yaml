@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pokeapi-svc
+  name: pikachu-svc
   namespace: pokespace
 spec:
   selector:
