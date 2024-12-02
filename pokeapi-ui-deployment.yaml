@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pokeapi
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: pokeapi:0.1 
+  template:
+    metadata:
+      labels:
+        app: pokeapi:0.1 
+    spec:
+      containers:
+      - image: gcr.io/heptio-images/pokeapi:0.1
+        name: pokeapi
+        ports:
+        - containerPort: 3000
