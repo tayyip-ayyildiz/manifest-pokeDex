@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: pokeapi
-  namespace: pokespace # Ajout explicite du namespace (option 1)
+  namespace: pokeapi:0.1
 spec:
   replicas: 1
   selector:
