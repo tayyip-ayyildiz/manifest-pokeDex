@@ -5,7 +5,7 @@ metadata:
   labels:
     app: pokeapi
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: pokeapi
