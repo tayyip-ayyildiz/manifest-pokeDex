@@ -6,5 +6,6 @@ namespace: pokespace
 
 resources:
   - namespace.yaml
+  - config-map.yaml
   - pokeapi-deployment.yaml
   - pokeapi-svc.yaml
