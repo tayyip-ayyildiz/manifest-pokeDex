@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 namePrefix: kustomize-
-namespace: pokeapi:0.1
+namespace: pokespace
 
 resources:
   - namespace.yaml
