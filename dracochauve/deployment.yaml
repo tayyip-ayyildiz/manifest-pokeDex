@@ -1,1 +1,21 @@
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dracochauve
+  labels:
+    app: pokeapi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pokeapi
+  template:
+    metadata:
+      labels:
+        app: pokeapi
+    spec:
+      containers:
+        - name: dracochauve
+          image: pokeapi:0.1
+          ports:
+            - containerPort: 3000
