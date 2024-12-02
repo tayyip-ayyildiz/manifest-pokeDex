@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: pokeapi
-          image: pokeapi:latest
+          image: pokeapi:0.1
           ports:
             - containerPort: 3000
             
