@@ -10,3 +10,4 @@ resources:
   - pokeapi-deployment.yaml
   - pokeapi-svc.yaml
   - ./pikachu
+  - ./dracochauve
