@@ -9,4 +9,4 @@ resources:
   - config-map.yaml
   - pokeapi-deployment.yaml
   - pokeapi-svc.yaml
-  - ./Pikachu/kustomization.yaml
+  - ./Pikachu
