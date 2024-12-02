@@ -5,5 +5,6 @@ namePrefix: kustomize-
 namespace: pokeapi:0.1
 
 resources:
+  - namespace.yaml
   - pokeapi-deployment.yaml
   - pokeapi-svc.yaml
